@@ -1,0 +1,35 @@
+react-mongodb-form/
+│
+├── backend/
+│   ├── server.js
+│   ├── package.json
+│   └── .env
+│
+└── frontend/
+    ├── src/
+    │   ├── App.jsx
+    │   ├── App.css
+    │   └── main.jsx
+    └── package.json
+
+    front-end set-up
+    npm create vite@latest frontend 
+    cd frontend
+    npm install
+    npm install axios
+    npm run dev// run front end
+
+    Back-end set-up
+    mkdir backend
+    cd backend
+    npm init -y
+    npm install express mongoose cors dotenv
+
+     npm install
+     node server.js//run back end
+
+     mongodb
+     127.0.0.1:27017/studentDB
+     Create Database name as studentDB
+     collection name as students
+
